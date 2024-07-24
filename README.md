@@ -91,7 +91,7 @@ services:
     volumes:
       - /path/to/config/folder:/config
       - /path/to/the/folder/you/want/to/use/for/book/ingest:/cwa-book-ingest
-      - /path/to/your/calibre/library:/calibre-main # Point to your Calibre config folder NOT the 'Calibre Library' folder directly
+      - /path/to/the/folder/containing/your/Calibre Library:/calibre-main # Point to the directory with your library folder, not the library folder directly (e.g: If calibre library is in `/foo/bar/Calibre Library/`, bind this to `/foo/bar/`
       #- /path/to/where/you/keep/your/books:/books #Optional
       #- /path/to/your/gmail/credentials.json:/app/calibre-web/gmail.json #Optional
     ports:
@@ -101,7 +101,7 @@ services:
 - **Explanation of the Container Bindings:**
   - **/config** - Can be any empty folder, used to store logs and other miscellaneous files that keep CWA running
   - **/cwa-book-ingest** - **ATTENTION** ⚠️ - All files within this folder will be **DELETED** after being processed. This folder should only be used to dump new books into for import and automatic conversion
-  - **/calibre-main** - This should be bound to the folder that your `metadata.db` file resides within.
+  - **/calibre-main** - This should be bound to the directory that has your calibre library folder with a metadata.db file. e.g: If your calibre library folder is in `/home/user/foo/Calibre Library/`, bind `/home/user/foo/` to **/calibre-main**
       - If you don't have an **existing** Calibre Database, make an empty folder somewhere called 'calibre-main' or something similar, bind that, place the `metadata.db` file from the project's GitHub page within it and follow the steps below after building the container
   - **/books** _(Optional)_ - This is purely optional, I personally bind /books to where I store my downloaded books so that they accessible from within the container but CWA doesn't require this
   - **/gmail.json** _(Optional)_ - This is used to setup Calibre-Web and/or CWA with your gmail account for sending books via email. Follow the guide [here](https://github.com/janeczku/calibre-web/wiki/Setup-Mailserver#gmail) if this is something you're interested in but be warned it can be a very fiddly process, I would personally recommend a simple SMTP Server
