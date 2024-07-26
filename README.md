@@ -91,7 +91,7 @@ services:
     volumes:
       - /path/to/config/folder:/config
       - /path/to/the/folder/you/want/to/use/for/book/ingest:/cwa-book-ingest
-      - "/path/to/your/calibre/library:/calibre-main/Calibre Library"
+      - /path/to/your/calibre/library:/calibre-main/Calibre\ Library
       #- /path/to/where/you/keep/your/books:/books #Optional
       #- /path/to/your/gmail/credentials.json:/app/calibre-web/gmail.json #Optional
     ports:
