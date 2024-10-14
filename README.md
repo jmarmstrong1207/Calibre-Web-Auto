@@ -34,13 +34,9 @@ Some users (including me) will have issues when ingesting loads of files when us
 - **Automatic Enforcement of Changes made to Covers & Metadata through the Calibre-Web UI!** 👀📔
   - In stock Calibre-Web, any changes made to a book's **Cover and/or Metadata** are only applied to how the book appears in the Calibre-Web UI, changing nothing in the ebook's files on some e-reader devices.
   - CWA's **Automatic Cover & Metadata Enforcement Feature** makes it so that **WHATEVER** changes you make to **YOUR** books, **_are made to the books themselves_**, as well as in the Web UI, **making what you see, what you get.**
-- **One Step Full Library Conversion** 🔂 - Any format -> `.epub`
 
-  - Calibre-Web Automated has always been designed with `.epub` libraries in mind due to many factors, chief among which being the fact they are **Compatible with the Widest Range of Devices**, **Ubiquitous** as well as being **Easy to Manage and Work with**
-  - Previously this meant that anyone with `non-epub` ebooks in their existing Calibre Libraries was unable to take advantage of all of `Calibre-Web Automated`'s features reliably
-  - So new to Version 1.2.0 is the ability for those users to quickly and easily convert their existing eBook Libraries, no matter the size, to `.epub Version 3` format using a one-step CLI Command from within the CWA Container
-  - This utility gives the user the option to either keep a copy of the original of all converted files in `/config/processed_books` or to trust the process and have CWA simply convert and replace those files (not recommended)
-  - Full usage details can be found [here](#the-convert-library-tool)
+- **One Step Full Library Conversion** 🔂 - Any format -> `.epub`
+  - Calibre-Web Automated is designed with `.epub` libraries as central, primarily due to it being the most **Compatible with the Widest Range of Devices**, **Ubiquitous** as well as being **Easy to Manage and Work with**
 
 - **Simple CLI Tools** for manual fixes, conversions, enforcements, history viewing ect. 👨‍💻
 
