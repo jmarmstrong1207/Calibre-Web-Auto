@@ -232,6 +232,7 @@ convert-library --keep
   - **⚠️ ATTENTION ⚠️**
     - _Downloading files directly into `/cwa-book-ingest` is not supported. It can cause duplicate imports and potentially a corrupt database. It is recommended to first download the books completely, then transfer them to `/cwa-book-ingest` to avoid any issues_
     - Be sure that the books you are transferring to `/cwa-book-ingest` are owned by your user rather than root. Otherwise, permission errors may occur and may result in incomplete importing. 
+    - Original and converted book files are backed up into `/config/processed_books`
 
 ## The Cover-Enforcer CLI Tool
 
