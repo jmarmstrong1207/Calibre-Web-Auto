@@ -34,9 +34,8 @@ Some users (including me) will have issues when ingesting loads of files when us
 ![Cover Enforcement CWA](README_images/cwa-enforcer-diagram.png "CWA 1.2.0 Cover Enforcement Diagram")
 
 - **Automatic Enforcement of Changes made to Covers & Metadata through the Calibre-Web UI!** 👀📔
-  - In stock Calibre-Web, any changes made to a book's **Cover and/or Metadata** are only applied to how the book appears in the Calibre-Web UI, changing nothing in the ebook's files like you would expect
-  - This results in a frustrating situation for many CW users who utilise CW's Send-To-Kindle function, and are disappointed to find that the High-Quality Covers they picked out and carefully chosen Metadata they sourced are completely absent on all their other devices! UGH!
-  - CWA's **Automatic Cover & Metadata Enforcement Feature** makes it so that **WHATEVER** you changes you make to **YOUR** books, **_are made to the books themselves_**, as well as in the Web UI, **making what you see, what you get.**
+  - In stock Calibre-Web, any changes made to a book's **Cover and/or Metadata** are only applied to how the book appears in the Calibre-Web UI, changing nothing in the ebook's files on some e-reader devices.
+  - CWA's **Automatic Cover & Metadata Enforcement Feature** makes it so that **WHATEVER** changes you make to **YOUR** books, **_are made to the books themselves_**, as well as in the Web UI, **making what you see, what you get.**
 - **One Step Full Library Conversion** 🔂 - Any format -> `.epub`
 
   - Calibre-Web Automated has always been designed with `.epub` libraries in mind due to many factors, chief among which being the fact they are **Compatible with the Widest Range of Devices**, **Ubiquitous** as well as being **Easy to Manage and Work with**
@@ -74,34 +73,24 @@ Some users (including me) will have issues when ingesting loads of files when us
 - ### Automated Book Ingests ♻️
   - Press the `Ingest Books` button on the navbar of the Web UI and anything in the ingest folder will be automatically ingested recursively!
 - ### Batch Editing & Deletion! 🗂️🗄️
-  - To use, simply navigate to the `Books List`page on the left hand side of the Web UI, select the books you wish to edit/ delete and use the buttons either above the table or within the headers to do whatever you need!
-
-![Calibre-Web Automated](README_images/cwa-bulk-editting-diagram.png "Calibre-Web Automated Bulk Editing & Bulk Deletion")
+  - To use, simply navigate to the `Books List` page on the left hand side of the Web UI, and select the books you wish to edit/delete 
+  
+  ![Calibre-Web Automated](README_images/cwa-bulk-editting-diagram.png "Calibre-Web Automated Bulk Editing & Bulk Deletion")
 
 # UNDER ACTIVE DEVELOPMENT ⚠️
 
 - Please be aware that while CWA currently works for most people, it is still under active development and that bugs and unexpected behaviours can occur while we work and the code base matures
-- I want to say a big thanks 🙏 to the members of this community that have taken the time to participate in the testing and development of this project, especially to [@jmarmstrong1207](https://github.com/jmarmstrong1207) who has been working tirelessly on improving the project since the release of Version 1.2.0
-  - In recognition of this, [@jmarmstrong1207](https://github.com/jmarmstrong1207) has now been promoted to a co-contributor here on the project, so feel free to also contact him with any issues, suggestions, ideas ect.
-  - For any others that wish to contribute to this project in some way, please reach out on our Discord Server and see how you can best get involved:\
+- For any others that wish to contribute to this project in some way, please reach out on our Discord Server and see how you can best get involved:\
     \
     [![](https://dcbadge.limes.pink/api/server/https://discord.gg/Ss93aURywf)](https://discord.gg/Ss93aURywf)
 
-### Coming Soon - Currently Under Active Development 🏗️
 
-- **Robo**tic **Read**ing 🤖📖
-  - **Bio**nic **read**ing **wa**s **initi**ally **rele**ased **i**n **20**22 **a**s **a** **met**hod **o**f **forma**tting **te**xt **t**o **ma**ke **i**t **eas**ier **fo**r **peo**ple **wi**th **AD**HD **an**d **oth**er **concent**ration **&** **read**ing **iss**ues **t**o **re**ad **fast**er, **eas**ier **an**d **t**o **ret**ain **mo**re **o**f **wh**at **they**'ve **rea**d.
-  - **W**e **we**re **insp**ired **b**y **th**e **conc**ept **an**d **ha**ve **crea**ted **a** **eP**ub **conve**rsion **algor**ithm **insp**ired **b**y **th**e **orig**inal **Bio**nic **Read**ing **fo**r **tho**se **wh**o **li**ke **i**t **o**r **wh**o **ma**y **wa**nt **t**o **gi**ve **i**t **a** **g**o
-
-- [View upcoming releases here](https://github.com/crocodilestick/Calibre-Web-Automated/releases) 
-
-### Additional Features on our Roadmap 🛣️🌱
+### Roadmap 🛣️🌱
 
 - Release CWA also as a Docker Mod
 - Support for `arm64` architectures
 - Adding tracking of ebook imports & deletions to the `cwa.db`
 - Improved metadata handling and conversion for comics & manga
-- Please suggest any ideas or wishes you might have! we're open to anything!
 
 # How To Install 📖
 
