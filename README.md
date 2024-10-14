@@ -1,4 +1,4 @@
-# Calibre-Web Automated
+# Calibre-Web Auto
 
 ![Calibre-Web Automated](README_images/CWA-banner.png "Calibre-Web Automated")
 
