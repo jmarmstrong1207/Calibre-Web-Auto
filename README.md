@@ -2,8 +2,6 @@
 
 ![Calibre-Web Automated](README_images/CWA-banner.png "Calibre-Web Automated")
 
-## Making Calibre-Web your _dream_, all-in-one self-hosted digital library solution.
-
 ## This fork disables automatic cwa-ingest due to reliability issues. This is for users who prefers a button to start the ingest process rather than automatic ingestion.
 Some users (including me) will have issues when ingesting loads of files when using auto ingestion, which is why I disabled it
 
