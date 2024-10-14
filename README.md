@@ -93,7 +93,7 @@ Some users (including me) will have issues when ingesting loads of files when us
   - In recognition of this, [@jmarmstrong1207](https://github.com/jmarmstrong1207) has now been promoted to a co-contributor here on the project, so feel free to also contact him with any issues, suggestions, ideas ect.
   - For any others that wish to contribute to this project in some way, please reach out on our Discord Server and see how you can best get involved:\
     \
-    [![](https://dcbadge.limes.pink/api/server/https://discord.gg/EjgSeek94R)](https://discord.gg/EjgSeek94R)
+    [![](https://dcbadge.limes.pink/api/server/https://discord.gg/Ss93aURywf)](https://discord.gg/Ss93aURywf)
 
 ### Coming Soon - Currently Under Active Development 🏗️
 
@@ -279,9 +279,6 @@ options:
 - If all 3 services come back as green and running they are working properly, otherwise there may be problems with your configuration/install
 
 # Further Development 🏗️
-
-- Calibre-Web Automated (_formerly Calibre-Web Automator_) was made to be everything I need for my reading workflow, I personally love the new features and hope you do to!
-- While it already does everything I need, building it has been really fun and it's great to see so many other people get so much use out of it!
-- And so on top of continuing to perform maintenance and bugfixes, we are always open to suggestions and ideas from the community so if there's something you'd like to see, don't be afraid to ask!
-- To do so you can either open an Issue here on the project page or get in touch with us on our Discord Server [here](https://discord.gg/EjgSeek94R)!
+We are always open to suggestions and ideas from the community so if there's something you'd like to see, don't be afraid to ask!
+- To do so you can either open an Issue here on the project page or get in touch with us on our Discord Server [here](https://discord.gg/Ss93aURywf)!
 - We're always looking for new people to help out too so if that sounds like you, let us know!
