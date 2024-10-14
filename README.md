@@ -19,7 +19,6 @@ Some users (including me) will have issues when ingesting loads of files when us
 - [Post-Install Tasks](#post-install-tasks)
 - [Usage](#usage-)
 - [Further Development](#further-development-️) 🏗️
-- [Support / Buy me a Coffee](https://ko-fi.com/crocodilestick) ☕
 
 ### **_Features:_**
 
