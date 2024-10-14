@@ -1,13 +1,11 @@
-# Calibre-Web Automated _(formerly Calibre-Web Automator)_
+# Calibre-Web Automated
 
 ![Calibre-Web Automated](README_images/CWA-banner.png "Calibre-Web Automated")
 
 ## Making Calibre-Web your _dream_, all-in-one self-hosted digital library solution.
 
-![Docker Pulls](https://img.shields.io/docker/pulls/crocodilestick/calibre-web-automated)
-![GitHub Release](https://img.shields.io/github/v/release/crocodilestick/calibre-web-automated)
-![GitHub commits since latest release](https://img.shields.io/github/commits-since/crocodilestick/calibre-web-automated/latest)
-
+## This fork disables automatic cwa-ingest due to reliability issues. This is for users who prefers a button to start the ingest process rather than automatic ingestion.
+Some users (including me) will have issues when ingesting loads of files when using auto ingestion, which is why I disabled it
 
 ## _Quick Access_
 
@@ -23,21 +21,9 @@
 - [Further Development](#further-development-️) 🏗️
 - [Support / Buy me a Coffee](https://ko-fi.com/crocodilestick) ☕
 
-## Why does it exist? 🔓
-
-Calibre, while a fantastic tool for its age, has several problems when containerised, including its reliance on a KasmVNC server instance for the UI, which is near impossible to use on mobile and is relatively resource-heavy if you're running a small, lower power server like I am.
-
-For many, Calibre-Web has really swooped in to save the day, offering an alternative to a containerised Calibre instance that's quick, easy to set up, resource-light and with a much more modern UI to boot.
-
-However, when compared to full-fat Calibre, it unfortunately lacks a few core features leading many to run both services in parallel, each serving to fill in where the other lacks, resulting in an often clunky, imperfect solution.
-
-## What Does it do? 🎯
-
-After discovering that using the DOCKER_MODS universal-calibre environment variable, you could gain access to Calibre's fantastic eBook conversion tools, both in the Web UI and in the container's CLI, I set about designing a similar solution that could really make the most of all of the tools available to try and fill in the gaps in functionality I was facing with Calibre-Web so that I could finally get rid of my bulky Calibre instance for good.
-
 ### **_Features:_**
 
-- **Automatic Imports** - of `.epub` files into your Calibre-Web library ✨
+- **Automatic Imports** - of `.epub` files into your Calibre-Web library ✨. Press "Ingest Books" to automatically import all books in the ingest folder
 
 - **Automatic Conversion** 🔃 - of newly downloaded books in 28 other formats into `.epub` **for optimal compatibility** with the widest number of eReaders, library homogeneity, and seamless functionality with Calibre-Web's excellent **Send-to-Kindle** Function.
 
